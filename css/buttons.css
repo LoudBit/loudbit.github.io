@@ -44,3 +44,30 @@
     inset 0 0 1px calc(var(--base) * .25) var(--dark-010);
   background-image: linear-gradient(var(--red-010), var(--red-000));
 }
+
+.button-glow-in-the-dark-001 {
+  background-color: var(--green-040);
+  border: none;
+  border-radius: calc(var(--base) * 2);
+  color: var(--dark-080);
+  font-size: var(--font-size-medium);
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: calc(var(--base) * 2);
+  box-shadow:
+    0 0 calc(var(--base) * 1) var(--green-020),
+    0 0 calc(var(--base) * 2) var(--green-020),
+    inset 0 0 calc(var(--base) * .25) var(--green-010);
+}
+.button-glow-in-the-dark-001:hover {
+  background-color: var(--green-050);
+  box-shadow:
+    0 0 calc(var(--base) * 1) var(--green-040),
+    0 0 calc(var(--base) * 2) var(--green-040),
+    inset 0 0 calc(var(--base) * .25) var(--green-010);
+}
+.button-glow-in-the-dark-001:active {
+  box-shadow:
+    0 0 calc(var(--base) * 1) var(--green-040),
+    inset 0 0 calc(var(--base) * .25) var(--green-010);
+}

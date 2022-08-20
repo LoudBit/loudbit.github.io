@@ -51,8 +51,23 @@
   --red-010: #ff00001a;
   --red-000: #ff000000;
 
-  --font-size-small: calc( var(--base) * 3 );
-  --line-height-small: calc( var(--base) * 5);
+  --green: #00ff00;
+  --green-090: #00ff00e6;
+  --green-080: #00ff00cc;
+  --green-070: #00ff00b3;
+  --green-060: #00ff0099;
+  --green-050: #00ff0080;
+  --green-040: #00ff0066;
+  --green-030: #00ff004d;
+  --green-020: #00ff0033;
+  --green-010: #00ff001a;
+  --green-000: #00ff0000;
+
+
+  --font-size-small: calc(var(--base) * 3);
+  --font-size-medium: calc(var(--base) * 4);
+  --line-height-small: calc(var(--base) * 5);
+  --line-height-medium: calc(var(--base) * 7);
 }
 
 @media (prefers-color-scheme: dark) {
