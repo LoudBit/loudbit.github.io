@@ -12,6 +12,10 @@
   --dark-020: #1a1a1a33;
   --dark-010: #1a1a1a1a;
 
+  --grey: #777;
+  --grey-050: #77777780;
+  --grey-010: #7777771a;
+
   --light: #e6e6e6;
   --light-090: #e6e6e6e6;
   --light-080: #e6e6e6cc;
@@ -23,9 +27,29 @@
   --light-020: #e6e6e633;
   --light-010: #e6e6e61a;
 
-  --grey: #777;
-  --grey-050: #77777780;
-  --grey-010: #7777771a;
+  --white: #fff;
+  --white-090: #ffffffe6;
+  --white-080: #ffffffcc;
+  --white-070: #ffffffb3;
+  --white-060: #ffffff99;
+  --white-050: #ffffff80;
+  --white-040: #ffffff66;
+  --white-030: #ffffff4d;
+  --white-020: #ffffff33;
+  --white-010: #ffffff1a;
+  --white-000: #ffffff00;
+
+  --red: #f00;
+  --red-090: #ff0000e6;
+  --red-080: #ff0000cc;
+  --red-070: #ff0000b3;
+  --red-060: #ff000099;
+  --red-050: #ff000080;
+  --red-040: #ff000066;
+  --red-030: #ff00004d;
+  --red-020: #ff000033;
+  --red-010: #ff00001a;
+  --red-000: #ff000000;
 
   --font-size-small: calc( var(--base) * 3 );
   --line-height-small: calc( var(--base) * 5);
