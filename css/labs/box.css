@@ -13,8 +13,10 @@
   border: 1px solid var(--grey-050);
   border-radius: var(--small);
   box-shadow: 0 var(--base) var(--tiny) var(--black-050);
-  height: var(--modest);
-  width: var(--modest);
+  min-height: var(--modest);
+  max-height: var(--huge);
+  min-width: var(--modest);
+  max-width: var(--huge);
   display: flex;
   align-items: center;
   justify-content: center;
