@@ -71,3 +71,26 @@
     0 0 calc(var(--base) * 1) var(--green-040),
     inset 0 0 calc(var(--base) * .25) var(--green-010);
 }
+
+.button--text-gradient-001 {
+  background-color: var(--light);
+  background-image: linear-gradient(var(--grey-010), var(--grey-020));
+  border: none;
+  border-radius: calc(var(--base) * 2);
+  box-shadow:
+    0 calc(var(--base) * 0.25) calc(var(--base) * 0.25) var(--black-020),
+    0 calc(var(--base) * 0.25) calc(var(--base) * 0.5) var(--black-010),
+    inset 0 calc(var(--base) * 0.25) calc(var(--base) * 0.25) var(--white-020);
+  padding: calc(var(--base) * 2);
+  font-size: var(--font-size-extra-large);
+  font-weight: bold;
+  color: transparent;
+}
+.button--text-gradient-001 span {
+  background-image: linear-gradient(to right, var(--green-050), var(--blue-050), var(--purple-050));
+  color: var(--dark-020);
+  background-clip: text;
+}
+.button--text-gradient-001:active {
+  background-image: linear-gradient(var(--grey-020), var(--grey-010));
+}

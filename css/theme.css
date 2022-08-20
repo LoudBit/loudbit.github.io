@@ -1,6 +1,18 @@
 :root {
   --base: 4px;
 
+  --black: #000000;
+  --black-090: #000000e6;
+  --black-080: #000000cc;
+  --black-070: #000000b3;
+  --black-060: #00000099;
+  --black-050: #00000080;
+  --black-040: #00000066;
+  --black-030: #0000004d;
+  --black-020: #00000033;
+  --black-010: #0000001a;
+  --black-000: #00000000;
+
   --dark: #1a1a1a;
   --dark-090: #1a1a1ae6;
   --dark-080: #1a1a1acc;
@@ -11,10 +23,19 @@
   --dark-030: #1a1a1a4d;
   --dark-020: #1a1a1a33;
   --dark-010: #1a1a1a1a;
+  --dark-000: #1a1a1a00;
 
-  --grey: #777;
+  --grey: #777777;
+  --grey-090: #777777e6;
+  --grey-080: #777777cc;
+  --grey-070: #777777b3;
+  --grey-060: #77777799;
   --grey-050: #77777780;
+  --grey-040: #77777766;
+  --grey-030: #7777774d;
+  --grey-020: #77777733;
   --grey-010: #7777771a;
+  --grey-000: #77777700;
 
   --light: #e6e6e6;
   --light-090: #e6e6e6e6;
@@ -26,6 +47,7 @@
   --light-030: #e6e6e64d;
   --light-020: #e6e6e633;
   --light-010: #e6e6e61a;
+  --light-000: #e6e6e600;
 
   --white: #fff;
   --white-090: #ffffffe6;
@@ -63,9 +85,33 @@
   --green-010: #00ff001a;
   --green-000: #00ff0000;
 
+  --blue: #0000ff;
+  --blue-090: #0000ffe6;
+  --blue-080: #0000ffcc;
+  --blue-070: #0000ffb3;
+  --blue-060: #0000ff99;
+  --blue-050: #0000ff80;
+  --blue-040: #0000ff66;
+  --blue-030: #0000ff4d;
+  --blue-020: #0000ff33;
+  --blue-010: #0000ff1a;
+  --blue-000: #0000ff00;
+
+  --purple: #ff00ff;
+  --purple-090: #ff00ffe6;
+  --purple-080: #ff00ffcc;
+  --purple-070: #ff00ffb3;
+  --purple-060: #ff00ff99;
+  --purple-050: #ff00ff80;
+  --purple-040: #ff00ff66;
+  --purple-030: #ff00ff4d;
+  --purple-020: #ff00ff33;
+  --purple-010: #ff00ff1a;
+  --purple-000: #ff00ff00;
 
   --font-size-small: calc(var(--base) * 3);
   --font-size-medium: calc(var(--base) * 4);
+  --font-size-extra-large: calc(var(--base) * 7);
   --line-height-small: calc(var(--base) * 5);
   --line-height-medium: calc(var(--base) * 7);
 }
