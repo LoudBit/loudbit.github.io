@@ -1,0 +1,6 @@
+.flex { display: flex; }
+.flex.row { flex-direction: row; }
+.flex.column { flex-direction: column; }
+.flex.wrap { flex-wrap: wrap; }
+.flex.gap { gap: var(--line-height-small); }
+.flex.align-stretch { align-items: flex-stretch; }

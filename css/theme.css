@@ -1,0 +1,40 @@
+:root {
+  --base: 4px;
+
+  --dark: #1a1a1a;
+  --dark-090: #1a1a1ae6;
+  --dark-080: #1a1a1acc;
+  --dark-070: #1a1a1ab3;
+  --dark-060: #1a1a1a99;
+  --dark-050: #1a1a1a80;
+  --dark-040: #1a1a1a66;
+  --dark-030: #1a1a1a4d;
+  --dark-020: #1a1a1a33;
+  --dark-010: #1a1a1a1a;
+
+  --light: #e6e6e6;
+  --light-090: #e6e6e6e6;
+  --light-080: #e6e6e6cc;
+  --light-070: #e6e6e6b3;
+  --light-060: #e6e6e699;
+  --light-050: #e6e6e680;
+  --light-040: #e6e6e666;
+  --light-030: #e6e6e64d;
+  --light-020: #e6e6e633;
+  --light-010: #e6e6e61a;
+
+  --grey: #777;
+  --grey-050: #77777780;
+  --grey-010: #7777771a;
+
+  --font-size-small: calc( var(--base) * 3 );
+  --line-height-small: calc( var(--base) * 5);
+}
+
+@media (prefers-color-scheme: dark) {
+  body { background: var(--dark); color: var(--light); }
+}
+
+@media (prefers-color-scheme: light) {
+  body { background: var(--light); color: var(--dark); }
+}

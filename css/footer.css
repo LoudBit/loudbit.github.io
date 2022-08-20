@@ -1,0 +1,13 @@
+.loud-footer {
+  border-top: 2px dotted var(--grey-050);
+  padding: calc(var(--base) * 4) 0;
+  margin: calc(var(--base) * 4) 0;
+  justify-self: flex-end;
+}
+
+.loud-footer img[title="Loud Bit"] {
+  background-color: var(--dark-080);
+  max-height: calc(var(--base) * 8);
+  padding: calc(var(--base) * 2);
+  border-radius: calc(var(--base) * 1);
+}
