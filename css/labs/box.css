@@ -1,0 +1,21 @@
+.box-counter {
+  counter-reset: box;
+}
+
+.box::before {
+  counter-increment: box;
+  content: counter(box);
+  color: var(--light-050);
+}
+
+.box {
+  background-color: var(--grey-050);
+  border: 1px solid var(--grey-050);
+  border-radius: var(--small);
+  box-shadow: 0 var(--base) var(--tiny) var(--black-050);
+  height: var(--modest);
+  width: var(--modest);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

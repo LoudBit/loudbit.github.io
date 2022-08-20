@@ -1,5 +1,9 @@
 :root {
   --base: 4px;
+  --tiny: calc(var(--base) * 2);
+  --small: calc(var(--base) * 4);
+  --modest: calc(var(--base) * 32);
+  --huge: calc(var(--base) * 64);
 
   --black: #000000;
   --black-090: #000000e6;
