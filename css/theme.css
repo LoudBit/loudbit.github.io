@@ -2,6 +2,8 @@
   --base: 4px;
   --tiny: calc(var(--base) * 2);
   --small: calc(var(--base) * 4);
+  --medium: calc(var(--base) * 8);
+  --large: calc(var(--base) * 12);
   --modest: calc(var(--base) * 16);
   --huge: calc(var(--base) * 64);
 

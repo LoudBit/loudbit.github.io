@@ -1,11 +1,15 @@
 .box-counter {
+  background: var(--grey-010);
+  border: 1px solid var(--grey-010);
+  border-radius: var(--medium);
   counter-reset: box;
+  padding: var(--small);
 }
 
 .box::before {
   counter-increment: box;
   content: counter(box);
-  color: var(--light-050);
+  color: var(--dark-070);
 }
 
 .box {
