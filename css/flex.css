@@ -1,6 +1,8 @@
 .flex { display: flex; }
 .flex.row { flex-direction: row; }
+.flex.row-reverse { flex-direction: row-reverse; }
 .flex.column { flex-direction: column; }
+.flex.column-reverse { flex-direction: column-reverse; }
 .flex.wrap { flex-wrap: wrap; }
 .flex.no-wrap { flex-wrap: no-wrap; }
 .flex.gap { gap: var(--line-height-small); }
