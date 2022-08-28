@@ -9,14 +9,14 @@
 .box::before {
   counter-increment: box;
   content: counter(box);
-  color: var(--dark-070);
+  color: var(--light-050);
 }
 
 .box {
-  background-color: var(--grey-050);
-  border: 1px solid var(--grey-050);
+  background-color: var(--grey-010);
+  border: 1px solid var(--grey-010);
   border-radius: var(--small);
-  box-shadow: 0 var(--base) var(--tiny) var(--black-050);
+  box-shadow: 0 var(--base) var(--base) var(--black-010);
   min-height: var(--modest);
   max-height: var(--huge);
   min-width: var(--modest);
@@ -24,4 +24,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .box::before {
+    color: var(--light-050);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .box::before {
+    color: var(--dark-050);
+  }
 }

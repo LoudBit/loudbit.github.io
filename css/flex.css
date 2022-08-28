@@ -1,10 +1,47 @@
 .flex { display: flex; }
+
 .flex.row { flex-direction: row; }
 .flex.row-reverse { flex-direction: row-reverse; }
 .flex.column { flex-direction: column; }
 .flex.column-reverse { flex-direction: column-reverse; }
+
 .flex.wrap { flex-wrap: wrap; }
 .flex.no-wrap { flex-wrap: no-wrap; }
-.flex.gap { gap: var(--line-height-small); }
-.flex.align-stretch { align-items: flex-stretch; }
+.flex.wrap-reverse { flex-wrap: wrap-reverse; }
+
+.flex.gap { gap: var(--small); }
+.flex.row-gap { row-gap: var(--small); }
+.flex.column-gap { column-gap: var(--small); }
 .flex.gap-sm { gap: var(--small); }
+
+
+
+
+/* justify relates to main axis */
+/* flex at-start at-end at-center at-space-between at-space-around at-space-evenly */
+.flex.justify-start { justify-content: flex-start; }
+.flex.justify-end { justify-content: flex-end; }
+.flex.justify-center { justify-content: center; }
+.flex.justify-space-between { justify-content: space-between; }
+.flex.justify-space-around { justify-content: space-around; }
+.flex.justify-space-evenly { justify-content: space-evenly; }
+
+/* align relates to perpendicular axis */
+/* flex items-at-start items-at-end items-at-center items-stretch items-baseline */
+.flex.align-start { align-items: flex-start; }
+.flex.align-end { align-items: flex-end; }
+.flex.align-center { align-items: center; }
+.flex.align-stretch { align-items: stretch; }
+.flex.align-baseline { align-items: baseline; }
+
+/* flex container's leading/content */
+/* only matters when used with wrap or wrap-reverse - make it explicit? */
+.flex.wrap.align-content-start,
+.flex.wrap-reverse.align-content-start { align-content: flex-start; }
+.flex.align-content-end { align-content: flex-end; }
+.flex.align-content-center { align-content: center; }
+.flex.align-content-stretch { align-content: stretch; }
+.flex.align-content-between { align-content: space-between; }
+.flex.align-content-around { align-content: space-around; }
+
+/* .flex.wrap.to-end {} */

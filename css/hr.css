@@ -1,0 +1,9 @@
+hr {
+  background: var(--grey-020);
+  border: none;
+  width: 100%;
+  height: calc(var(--base) * 0.25);
+  border-radius: 2px;
+  position: relative;
+  margin: 0;
+}

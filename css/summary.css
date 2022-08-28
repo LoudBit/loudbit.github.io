@@ -1,0 +1,2 @@
+summary { font-size: var(--h3-font-size); }
+details[open] summary { margin-bottom: var(--gap); }

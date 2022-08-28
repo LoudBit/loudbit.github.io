@@ -7,6 +7,9 @@
   <title>Flex Box</title>
   <link rel="stylesheet" href="/css/reset.css" />
   <link rel="stylesheet" href="/css/theme.css" />
+  <link rel="stylesheet" href="/css/hr.css" />
+  <link rel="stylesheet" href="/css/summary.css" />
+  <link rel="stylesheet" href="/css/typography.css" />
   <link rel="stylesheet" href="/css/xyz.css" />
   <link rel="stylesheet" href="/css/flex.css" />
   <link rel="stylesheet" href="/css/footer.css" />
@@ -18,79 +21,222 @@
       <h1>Flex Box</h1>
       <p><small>A collection of flexible amusements.</small></p>
     </header>
-    <section>
-      <header class="m-b-sm">
-        <h2><code>.flex</code></h2>
-      </header>
-      <div class="flex box-counter">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+    <details>
+      <summary>Basics</summary>
+      <div class="flex gap column">
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex</code></h3>
+          </header>
+          <div class="flex box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.gap</code></h3>
+          </header>
+          <div class="flex gap box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
       </div>
-    </section>
-    <section>
-      <header class="m-b-sm">
-        <h2><code>.flex.gap-sm</code></h2>
-      </header>
-      <div class="flex gap-sm box-counter">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+    </details>
+    <hr />
+    <details>
+      <summary>Rows &amp; Columns</summary>
+      <div class="flex column gap">
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.row-reverse.gap</code></h3>
+          </header>
+          <div class="flex row-reverse gap box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.wrap.gap</code></h3>
+          </header>
+          <div class="flex wrap gap box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.wrap-reverse.gap</code></h3>
+          </header>
+          <div class="flex wrap-reverse gap box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.row-reverse.wrap-reverse.gap</code></h3>
+          </header>
+          <div class="flex row-reverse wrap-reverse gap box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.column.gap</code></h3>
+          </header>
+          <div class="flex column gap box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.column-reverse.gap</code></h3>
+          </header>
+          <div class="flex column-reverse gap box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.column.wrap-reverse.gap</code></h3>
+          </header>
+          <div class="flex column wrap-reverse gap box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.column-reverse.wrap-reverse.gap</code></h3>
+          </header>
+          <div class="flex column-reverse wrap-reverse gap box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
       </div>
-    </section>
-    <section>
-      <header class="m-b-sm">
-        <h2><code>.flex.row-reverse.gap-sm</code></h2>
-      </header>
-      <div class="flex row-reverse gap-sm box-counter">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+    </details>
+    <hr />
+    <details>
+      <summary>Justify Content</summary>
+      <div class="flex column gap">
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.gap.justify-start</code></h3>
+          </header>
+          <div class="flex gap justify-start box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.gap.justify-center</code></h3>
+          </header>
+          <div class="flex gap justify-center box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.gap.justify-end</code></h3>
+          </header>
+          <div class="flex gap justify-end box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.gap.justify-space-between</code></h3>
+          </header>
+          <div class="flex gap justify-space-between box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.gap.justify-space-around</code></h3>
+          </header>
+          <div class="flex gap justify-space-around box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
+        <section>
+          <header class="m-b-sm">
+            <h3><code>.flex.gap.justify-evenly</code></h3>
+          </header>
+          <div class="flex gap justify-evenly box-counter">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </section>
       </div>
-    </section>
-    <section>
-      <header class="m-b-sm">
-        <h2><code>.flex.wrap.gap-sm</code></h2>
-      </header>
-      <div class="flex wrap gap-sm box-counter">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-      </div>
-    </section>
-    <section>
-      <header class="m-b-sm">
-        <h2><code>.flex.column.gap-sm</code></h2>
-      </header>
-      <div class="flex column gap-sm box-counter">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-      </div>
-    </section>
-    <section>
-      <header class="m-b-sm">
-        <h2><code>.flex.column-reverse.gap-sm</code></h2>
-      </header>
-      <div class="flex column gap-sm box-counter">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-      </div>
-    </section>
+    </details>
     <footer class="loud-footer">
       <img src="/img/loudbit.svg" title="Loud Bit" />
     </footer>
