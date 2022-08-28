@@ -14,20 +14,15 @@
 .flex.column-gap { column-gap: var(--small); }
 .flex.gap-sm { gap: var(--small); }
 
-
-
-
-/* justify relates to main axis */
-/* flex at-start at-end at-center at-space-between at-space-around at-space-evenly */
+/* main axis */
 .flex.justify-start { justify-content: flex-start; }
 .flex.justify-end { justify-content: flex-end; }
 .flex.justify-center { justify-content: center; }
-.flex.justify-space-between { justify-content: space-between; }
-.flex.justify-space-around { justify-content: space-around; }
-.flex.justify-space-evenly { justify-content: space-evenly; }
+.flex.justify-between { justify-content: space-between; }
+.flex.justify-around { justify-content: space-around; }
+.flex.justify-evenly { justify-content: space-evenly; }
 
-/* align relates to perpendicular axis */
-/* flex items-at-start items-at-end items-at-center items-stretch items-baseline */
+/* cross axis */
 .flex.align-start { align-items: flex-start; }
 .flex.align-end { align-items: flex-end; }
 .flex.align-center { align-items: center; }
